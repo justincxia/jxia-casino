@@ -6,7 +6,7 @@ const config = require('./config');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5174',
+    origin: ['http://localhost:5174','https://jxia-casino.vercel.app'],
     credentials: true
 }));
 app.use(express.json());
