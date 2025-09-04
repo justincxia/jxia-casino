@@ -31,7 +31,7 @@ export default function App() {
     }
   }, []);
 
-  const handleLogin = (userData: User, token: string) => {
+  const handleLogin = (userData: User) => {
     setUser(userData);
     setUsername(userData.username);
     setCoins(userData.coins);
